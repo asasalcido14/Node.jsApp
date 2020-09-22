@@ -13,17 +13,23 @@ const questions = [
         message: "What would you like the title of your project to be?",
         name: "title"
       },
+      //Title
       {
         type: "input",
         message: "Give a description of your project.",
         name: "description",
       },
+      //Description
       {
-        type: "list",
-        message: "which license would you like to attach?",
-        name: "license",
-        choices: [ "MIT","apache2.0","GNUv3.0","BSD3","none"]
-
+        type: "input",
+        message: "What are the your Table of Contents?",
+        name: "toc",
+      },
+      // ??I want to try and get these to be a list???
+      {
+        type: "input",
+        message: "How does the user install your application?",
+        name: "install",
       },
       {
         type: "input",
@@ -34,12 +40,19 @@ const questions = [
         type: "input",
         message: "What is your email address?",
         name: "emailaddress",
-      }
-
-
-];
-
-// function to write README file
+      },
+      {
+        type: "list",
+        message: "which license would you like to attach?",
+        name: "license",
+        choices: [ "MIT","apache2.0","GNUv3.0","BSD3","none"]
+  
+      },
+      
+      
+    ];
+    
+    // function to write README file
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(),fileName),data);
 }
