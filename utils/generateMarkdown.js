@@ -6,8 +6,13 @@ function generateMarkdown(data) {
 ### Description
 ${data.description}
 
-### Questions
-![website link to GitHub](https://github.com/${data.username})
+ 
+
+  
+## Questions
+Link to GitHub(https://github.com/${data.username})
+Email:${data.emailaddress}
+
 
 
 
