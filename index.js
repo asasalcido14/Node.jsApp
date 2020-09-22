@@ -24,7 +24,18 @@ const questions = [
         name: "license",
         choices: [ "MIT","apache2.0","GNUv3.0","BSD3","none"]
 
+      },
+      {
+        type: "input",
+        message: "What is your GitHub username?",
+        name: "username",
+      },
+      {
+        type: "input",
+        message: "What is your GitHub username?",
+        name: "username",
       }
+
 
 ];
 
