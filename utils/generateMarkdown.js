@@ -10,11 +10,11 @@ ${data.description}
 
 ## Installation Instructions:
 
-## Usage:
+## Usage Information:
 
 ## License:
 
-## Contributing: 
+## Contributing Guidelines: 
 
 ## Tests:
 
