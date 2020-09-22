@@ -33,6 +33,11 @@ const questions = [
       },
       {
         type: "input",
+        message: "Who were your contributors to your project?",
+        name: "contribution",
+      },
+      {
+        type: "input",
         message: "What is your GitHub username?",
         name: "username",
       },
