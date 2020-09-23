@@ -1,7 +1,7 @@
-# Project Title: NODE.md
-
+# Project Title: Node.md
+  ![license badge here](https://img.shields.io/badge/license-MIT-red)
   ## Description 
-    * Using the command-line to run a node app that creates a README.md file for the user in VS code
+    * The application is designed to create a README.md file using node in the command line
 
   ## Table of Contents 
 
@@ -16,28 +16,23 @@
   * [Questions](#questions)
   
   ## Installation
-    run node index.js
+    npm i and npm init
   
   ## Usage
-    npm i
+    run node index.js
 
   ## Contributions
-    Asa 
+    N/A
   
   ## Tests
     run test
   
   ## License
-  ![license badge here](https://img.shields.io/badge/license-MIT-red)
+    * Top of page
   
   
   ## Questions
     Link to GitHub: https://github.com/asasalcido14)
     Email Address: [asasalcido14@email.arizona.edu]
-    Phone Number: [6453456421]
+    Phone Number: [7605549595]
   
-
-
-  
-
-
