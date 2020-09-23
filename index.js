@@ -26,7 +26,7 @@ const questions = [{
   },
   {
     type: "input",
-    message: "what are the instructions on how to use",
+    message: "what are the instructions on how to use your application ",
     name: "usage",
   },
   {
