@@ -35,8 +35,8 @@ function generateMarkdown(data) {
   
   ## Questions
     Link to GitHub: https://github.com/${data.username})
-    Email Address: ${data.email}
-    Phone Number: ${data.pnumber}
+    Email Address: [${data.email}]
+    Phone Number: [${data.pnumber}]
   
 
 
